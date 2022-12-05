@@ -1,0 +1,133 @@
+/* 购物车页面专有的css */
+.car {
+    position: absolute;
+    top: 35px;
+    left: 200px;
+    font-size: 25px;
+    color: #5e5959;
+}
+.product_hd h2 {
+    color: #c81623;
+    font-size: 16px;
+    font-weight: 700;
+    width: 64px;
+    border-bottom: 2px solid #c81623;
+}
+.menu_bar {
+    height: 40px;
+    background-color: #f3f3f3;
+    line-height: 40px;
+}
+.menu_bar ul li {
+    float: left;
+    margin-right: 120px;
+}
+.menu_bar ul li:nth-child(2) {
+    margin-right: 430px;
+}
+.product_content {
+    height: 170px;
+    margin-top: 30px;
+    border: 1px solid #f1f1f1;
+    border-top: 2px solid #aaa;
+}
+.bgc {
+    background-color: #fff4e8;
+}
+.product_content ul li {
+    float: left;
+    margin-top: 20px;
+    margin-right: 90px;
+}
+.product_content ul li:nth-child(2) {
+    margin-right: 123px;
+}
+
+.img {
+    float: left;
+    width: 135px;
+    height: 135px;
+    border: 1px solid #f1f1f1;
+    margin-right: 2em;
+}
+.product_number {
+    width: 50px;
+    text-align: center;
+    border: 1px solid #f1f1f1;
+    border-left: 0;
+    border-right: 0;
+}
+.product_content ul li span {
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    border: 1px solid #f1f1f1;
+    text-align: center;
+    cursor: pointer;
+}
+.delete {
+    cursor: pointer;
+}
+.delete:hover {
+    color: #c81623;
+}
+.foot {
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #f1f1f1;
+    margin: 20px 0 40px 0;
+}
+.foot ul li {
+    float: left;
+}
+.deletes {
+    width: 60px;
+    height: 40px;
+    font-size: 15px;
+    background-color: skyblue;
+    color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+.car_empty {
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    background-color: pink;
+    color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+.sum_number {
+    color: #c81623;
+    font-weight: 700;
+    font-size: 17px;
+}
+.sum_price {
+    color: #c81623;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.submit {
+    width: 70px;
+    height: 40px;
+    font-size: 15px;
+    background-color: #c81623;
+    border-radius: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.right {
+    float: right;
+}
+
